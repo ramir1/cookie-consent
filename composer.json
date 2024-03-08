@@ -2,7 +2,7 @@
     "name": "ramir1/cookie-consent",
     "description": "Banner for cookie consent fo Laravel",
     "version": "1.0",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
         "laravel/framework": "^v10.0.0"
