@@ -1,0 +1,30 @@
+{
+    "name": "ramir1/cookie-consent",
+    "description": "Banner for cookie consent fo Laravel",
+    "version": "0.0.1",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+    },
+    "license": "Commercial",
+    "authors": [
+        {
+            "name": "Vadim Trofimov",
+            "email": "vadimtrofimov@gmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [],
+        "files": [],
+        "psr-4": {
+            "Ramir1\\CookieConsent\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ramir1\\CookieConsent\\Providers\\CookieConsentServiceProvider"
+            ]
+        }
+    }
+}
