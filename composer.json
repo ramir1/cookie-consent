@@ -1,12 +1,13 @@
 {
     "name": "ramir1/cookie-consent",
     "description": "Banner for cookie consent fo Laravel",
-    "version": "0.0.1",
+    "version": "1.0",
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
+        "laravel/framework": "^v10.0.0"
     },
-    "license": "Commercial",
+    "license": "MIT",
     "authors": [
         {
             "name": "Vadim Trofimov",
