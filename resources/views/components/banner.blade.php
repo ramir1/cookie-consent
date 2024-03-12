@@ -73,9 +73,9 @@
     function agree(settings) {
         let default_settings = {
             necessary: 'allow',
-            preferences: 'denied',
-            statistics: 'denied',
-            marketing: 'denied'
+            preferences: 'allow',
+            statistics: 'allow',
+            marketing: 'allow'
         }
         let options = {
             'sameSite': 'Lax',
