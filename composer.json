@@ -24,7 +24,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ramir1\\CookieConsent\\Providers\\CookieConsentServiceProvider"
+                "Ramir1\\CookieConsent\\CookieConsentServiceProvider"
             ]
         }
     }
