@@ -7,9 +7,11 @@
 
     <x-cookie_consent::banner/>
     
+    php artisan vendor:publish --provider="Ramir1\CookieConsent\CookieConsentServiceProvider"
+    
  or
  
-    yarn add js-cookie
+     yarn add js-cookie
  
     <x-cookie_consent::banner :style=0 :script=0 />
     
