@@ -6,6 +6,20 @@
 ##Add in layout
 
     <x-cookie_consent::banner/>
+    
+ or
+ 
+    yarn add js-cookie
+ 
+    <x-cookie_consent::banner :style=0 :script=0 />
+    
+  To app.js
+  
+    import '../../vendor/ramir1/cookie-consent/resources/js/cookie-consent';
+    
+  to app.css/app.scss
+  
+    @import "../../vendor/ramir1/cookie-consent/resources/css/cookie-consent.css"  
 
 Setting GTM (google tag manager)
 
