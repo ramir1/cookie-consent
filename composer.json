@@ -4,7 +4,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "laravel/framework": "^10|^v11"
+        "laravel/framework": "^10|^11|^12"
     },
     "license": "MIT",
     "authors": [
