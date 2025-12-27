@@ -13,6 +13,7 @@ function initCookieConsent() {
     const btn_label = document.getElementById('cookie_consent__label')
     const cc_form = document.getElementById('cookie_consent__form')
 
+    if (!btn_ok) return;
     function allowAll() {
         const checkboxes = cc_form.querySelectorAll('input[type="checkbox"]');
         checkboxes.forEach(function (checkbox) {
@@ -46,7 +47,7 @@ function initCookieConsent() {
         block.classList.add("hidden")
     }
 
-    btn_ok.onclick = () => allowAll();
+    btn_ok?.addEventListener('click',  () => allowAll());
 
     btn_label?.addEventListener('click',   (function () {
         block.classList.remove("hidden")
@@ -78,4 +79,3 @@ function initCookieConsent() {
 }
 
 document.addEventListener('DOMContentLoaded', initCookieConsent);
-console.log(cookie_consent);
