@@ -10,7 +10,6 @@ class CookieConsentServiceProvider extends ServiceProvider
     {
         $this->loadViewsFrom(__DIR__.'/../resources/views', 'cookie_consent');
         $this->loadTranslationsFrom(__DIR__.'/../lang', 'cookie_consent');
-        $this->loadJSONTranslationsFrom(__DIR__.'/../lang');
 
         $this->publishes([
             __DIR__.'/../public/cookie-consent.css' => public_path('vendor/cookie-consent/cookie-consent.css'),
