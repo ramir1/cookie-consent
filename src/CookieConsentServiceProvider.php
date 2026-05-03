@@ -22,6 +22,9 @@ class CookieConsentServiceProvider extends ServiceProvider
 
         ],
             ['assets', 'cookie-consent']);
+
+        $this->publishes([__DIR__.'/../resources/views' => resource_path('views/vendor/cookie-consent')]);
+
     }
 
     public function register(): void
